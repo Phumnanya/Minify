@@ -1,0 +1,58 @@
+[
+  {
+    "id": "0",
+    "name": "Radox Shower Shampoo Gel",
+    "desc": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper.",
+    "price": 10,
+    "image": "shampoo.jpg"
+  },
+  {
+    "id": "1",
+    "name": "Aberdeen Angus Burgers",
+    "desc": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper.",
+    "price": 18,
+    "image": "angus.jpg"
+  },
+  {
+    "id": "2",
+    "name": "Best Roast Chicken",
+    "desc": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper.",
+    "price": 12,
+    "image": "chicken.jpg"
+  },
+  {
+    "id": "3",
+    "name": "Dolmio Pasta Sauce",
+    "desc": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper.",
+    "price": 15,
+    "image": "pasta.jpg"
+  },
+  {
+    "id": "4",
+    "name": "Dove Colour Care Pro",
+    "desc": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper.",
+    "price": 17,
+    "image": "dove.jpg"
+  },
+  {
+    "id": "5",
+    "name": "Weleda Easy Body Wash",
+    "desc": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper.",
+    "price": 15,
+    "image": "body-wash.jpg"
+  },
+  {
+    "id": "6",
+    "name": "Flash Spray Wipe",
+    "desc": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper.",
+    "price": 10,
+    "image": "spray.jpg"
+  },
+  {
+    "id": "7",
+    "name": "Ocado Cowboy Steak",
+    "desc": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper.",
+    "price": 22,
+    "image": "steak.jpg"
+  }
+]
