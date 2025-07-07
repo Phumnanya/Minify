@@ -39,7 +39,7 @@ function Products() {
                 <div className="flex flex-col justify-center items-start w-1/2 md:w-1/5 rounded-lg bg-white p-1 box-border">
                     <Link to="/overview/3">
                         <img src="/img/pasta.jpg" alt="Dolmio Pasta Sauce" className="w-sm md:w-full" />
-                        <h2 className="font-bold">Dolmio Pasta Sauce</h2>
+                        <h2 className="font-bold">Dolmio Pasta</h2>
                         <Stars />
                         <Price value0="$" value1={15} />
                     </Link>
@@ -75,7 +75,7 @@ function Products() {
                 <div className="flex flex-col justify-center items-start w-1/2 md:w-1/5 rounded-lg bg-white p-1 box-border">
                     <Link to="/overview/7">
                         <img src="/img/steak.jpg" alt="Ocado Cowboy Steak" className="w-sm md:w-full" />
-                        <h2 className="font-bold">Ocado Cowboy Steak</h2>
+                        <h2 className="font-bold">Cowboy Steak</h2>
                         <Stars />
                         <Price value0="$" value1={22} />
                     </Link>
