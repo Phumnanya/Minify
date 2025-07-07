@@ -17,7 +17,7 @@ function Header() {
                 </h1>
                 </div>
                 <div className="second box w-fit">
-                    <input type='search' placeholder="search" className="rounded-3xl min-w-8 md:w-auto" />
+                    <input type='search' placeholder="search" className="rounded-3xl min-w-5 md:w-auto" />
                     <button type="button" className="bg-orange-600 text-white hidden md:inline-block w-fit p-2 rounded-full ml-1 align-middle">
                         <img src="/img/icons8-search-64.png" className="size-8" />
                     </button>
