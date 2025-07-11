@@ -16,5 +16,10 @@ detail was drawn from a local json file named "produc-info.json" which is also i
 updated on the cart icon on the top right corner of the sticky navbar which contains an internal route to the cart/checkout page where the user can see a rundown of all the items they have selected, 
 the quantity(adjustable), remove products and total amount before payment.
 
-The fetching of products details for the product details page from the products-info.json was done with react-query
-then the storage of selected products figures, and updating the cart was implemented with Zustand
+The fetching of products details for the product details page and the checkout page from the products-info.json was done with react-query
+then the storage of the figures of the selected products, and updating the cart was implemented with Zustand
+
+Implementation of Zustand:
+- A store was created in the file named ZustandStore.tsx at the root of the project folder
+- The main function "create" was imported at the beginning, it's internal functions "(set,get)" were used to hold, read the current values of the cart and update it on the page anytime its function is called.
+- "Persist" was also added to the logic to help persist the logic and save the stored details to the local storage so that even when the browser is closed and reopened, the selected items are still there and not lost.
