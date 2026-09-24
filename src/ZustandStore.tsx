@@ -12,6 +12,7 @@ interface CartState {
   removeItem: (productId: string) => void;
   increaseItem: (productId: string) => void;
   decreaseItem: (productId: string) => void;
+  clearCart: () => void;
   totalItems: () => number;
 }
 
@@ -56,6 +57,11 @@ export const ZustandStore = create<CartState>()(
           .filter((item) => item.quantity > 0);
         set({ cart });
       },
+
+      clearCart: () => {
+        set({ cart: [] });
+      },
+      
       totalItems: () => get().cart.reduce((acc, item) => acc + item.quantity, 0),
     }),
     {
