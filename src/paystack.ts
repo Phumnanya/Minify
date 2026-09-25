@@ -1,4 +1,4 @@
-const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || "http://localhost:5000";
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || "https://backend-glimmering-song-1039.fly.dev";
 
 type InitializeResponse = {
   access_code: string;
