@@ -26,8 +26,13 @@ export const ZustandStore = create<CartState>()(
         const existing = cart.find((item) => item.productId === productId);
 
         if (existing) {
-          existing.quantity += quantity;
-          set({ cart: [...cart] });
+          set({
+            cart: cart.map((item) =>
+              item.productId === productId
+                ? { ...item, quantity: item.quantity + quantity }
+                : item
+            ),
+          });
         } else {
           set({ cart: [...cart, { productId, quantity }] });
         }
