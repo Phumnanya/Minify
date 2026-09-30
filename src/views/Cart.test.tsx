@@ -117,8 +117,11 @@ describe("Cart", () => {
     vi.mocked(initializePayment).mockResolvedValue({
       access_code: "ac_123",
       reference: "ref_123",
-    });
-    vi.mocked(verifyPayment).mockResolvedValue({ success: true, reference: "ref_123" });
+    } as Awaited<ReturnType<typeof initializePayment>>);
+    vi.mocked(verifyPayment).mockResolvedValue({
+      success: true,
+      reference: "ref_123",
+    } as Awaited<ReturnType<typeof verifyPayment>>);
 
     ZustandStore.getState().addItem("p1", 1);
     renderCart();
@@ -137,8 +140,11 @@ describe("Cart", () => {
     vi.mocked(initializePayment).mockResolvedValue({
       access_code: "ac_123",
       reference: "ref_456",
-    });
-    vi.mocked(verifyPayment).mockResolvedValue({ success: false, reference: "ref_456" });
+    } as Awaited<ReturnType<typeof initializePayment>>);
+    vi.mocked(verifyPayment).mockResolvedValue({
+      success: false,
+      reference: "ref_456" 
+    } as Awaited<ReturnType<typeof verifyPayment>>);
 
     ZustandStore.getState().addItem("p1", 1);
     renderCart();
