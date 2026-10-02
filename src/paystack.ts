@@ -1,4 +1,4 @@
-const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || "https://backend-glimmering-song-1039.fly.dev";
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || "https://minify-whbr.onrender.com";
 
 type InitializeResponse = {
   access_code: string;
